@@ -15,7 +15,7 @@ class Question(models.Model):
     def __str__(self):
         return self.text
 
-class Quiz(models.Model):
+class Quiz(models.Model):vbvdv
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
 
